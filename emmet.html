@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1></h1>
+      <nav></nav>
+    </header>
+
+    <!-- header>h1+nav -->
+    <header>
+      <h1></h1>
+      <nav></nav>
+    </header>
+
+    <!-- header>h1+nav>ul>li*5 -->
+    <header>
+      <h1></h1>
+      <nav>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- header>h1+nav>ul>li*5>a -->
+    <!-- header>h1+nav>ul>(li>a)*5 -->
+    header>h1+nav>ul>(li>a)*5
+
+    <!-- h1{Hello there} -->
+    <h1>Hello there</h1>
+
+    <!-- header>h1{Blogs}+nav>ul>(li>a{Blog № $})*5 -->
+    <header>
+      <h1>Blogs</h1>
+      <nav>
+        <ul>
+          <li><a href="">Blog № 1</a></li>
+          <li><a href="">Blog № 2</a></li>
+          <li><a href="">Blog № 3</a></li>
+          <li><a href="">Blog № 4</a></li>
+          <li><a href="">Blog № 5</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- header>h1{Blogs}+nav>ul>(li>a{Blog № $}[href="article-$" title="link to article $"])*5 -->
+    <header>
+      <h1>Blogs</h1>
+      <nav>
+        <ul>
+          <li><a href="article-1" title="link to article 1">Blog № 1</a></li>
+          <li><a href="article-2" title="link to article 2">Blog № 2</a></li>
+          <li><a href="article-3" title="link to article 3">Blog № 3</a></li>
+          <li><a href="article-4" title="link to article 4">Blog № 4</a></li>
+          <li><a href="article-5" title="link to article 5">Blog № 5</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- p[id="test"] -->
+    <!-- p#test -->
+    <p id="test"></p>
+
+    <!-- p[class="p-class test2"] -->
+    <!-- p.p-class.test2 -->
+    <p class="p-class test2"></p>
+
+    <!-- p>lorem -->
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore a
+      reiciendis odit quis. Quasi doloribus dicta accusamus neque, ad minus qui
+      aliquid ipsum aperiam veniam. Eaque a dolorem vel voluptas!
+    </p>
+  </body>
+</html>
