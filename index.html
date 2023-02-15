@@ -5,44 +5,123 @@
     <meta charset="UTF-8" />
   </head>
   <body>
-    <h1 title="title attribute">Головна сторінка 1</h1>
-    <a href="./contacts.html">Контакти</a>
-    <a href="https://google.com" target="_blank">Перейти до пошуку</a>
-    
-    <ul>
-      <li><a href="#books">Книжки</a></li>
-      <li><a href="#computers">Комп'ютери</a></li>
-      <li><a href="#web-dev">Веб розробку</a></li>
-      <li><a href="#hunting">Полювання</a></li>
-    </ul>
-    <h2>Список покупок:</h2>
-    <ul>
-      <li>Хліб <button disabled>Придбати</button></li>
-      <li>Молоко <button disabled>Придбати</button></li>
-      <li>Ковбаса <button disabled>Придбати</button></li>
-      <li>
-        Сири:
+    <header>
+      <h1 title="title attribute">Головна сторінка</h1>
+      <nav>
+        <h2>Зовнішня навігація</h2>
         <ul>
-          <li>Чеддер <button disabled>Придбати</button></li>
-          <li>Пармезан <button disabled>Придбати</button></li>
+          <li><a href="./contacts.html">Контакти</a></li>
+          <li>
+            <a href="https://google.com" target="_blank">Перейти до пошуку</a>
+          </li>
         </ul>
-      </li>
-    </ul>
-    <h2>Найулюбленіші тварини:</h2>
-    <ol>
-      <li>Коти</li>
-      <li>Сови</li>
-      <li>Змії</li>
-    </ol>
-    <img src="./car.jpg" alt="Червоний автомобіль" />
-    <h2>Мої інтереси</h2>
-    <h3 id="books">Книги</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quia voluptatem sit facere? Quam doloremque, corporis tenetur vero sunt nisi eveniet deleniti eligendi recusandae similique officia libero nam nostrum reprehenderit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quia voluptatem sit facere? Quam doloremque, corporis tenetur vero sunt nisi eveniet deleniti eligendi recusandae similique officia libero nam nostrum reprehenderit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quia voluptatem sit facere? Quam doloremque, corporis tenetur vero sunt nisi eveniet deleniti eligendi recusandae similique officia libero nam nostrum reprehenderit.</p>
-    <h3 id="computers">Комп'ютери</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quia voluptatem sit facere? Quam doloremque, corporis tenetur vero sunt nisi eveniet deleniti eligendi recusandae similique officia libero nam nostrum reprehenderit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quia voluptatem sit facere? Quam doloremque, corporis tenetur vero sunt nisi eveniet deleniti eligendi recusandae similique officia libero nam nostrum reprehenderit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quia voluptatem sit facere? Quam doloremque, corporis tenetur vero sunt nisi eveniet deleniti eligendi recusandae similique officia libero nam nostrum reprehenderit.</p>
-    <h3 id="web-dev">Веб розробку</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quia voluptatem sit facere? Quam doloremque, corporis tenetur vero sunt nisi eveniet deleniti eligendi recusandae similique officia libero nam nostrum reprehenderit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quia voluptatem sit facere? Quam doloremque, corporis tenetur vero sunt nisi eveniet deleniti eligendi recusandae similique officia libero nam nostrum reprehenderit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quia voluptatem sit facere? Quam doloremque, corporis tenetur vero sunt nisi eveniet deleniti eligendi recusandae similique officia libero nam nostrum reprehenderit.</p>
-    <h3 id="hunting">Полювання</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quia voluptatem sit facere? Quam doloremque, corporis tenetur vero sunt nisi eveniet deleniti eligendi recusandae similique officia libero nam nostrum reprehenderit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quia voluptatem sit facere? Quam doloremque, corporis tenetur vero sunt nisi eveniet deleniti eligendi recusandae similique officia libero nam nostrum reprehenderit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quia voluptatem sit facere? Quam doloremque, corporis tenetur vero sunt nisi eveniet deleniti eligendi recusandae similique officia libero nam nostrum reprehenderit.</p>
+        <h2>Внутрішня навігація</h2>
+        <ul>
+          <li><a href="#books">Книжки</a></li>
+          <li><a href="#computers">Комп'ютери</a></li>
+          <li><a href="#web-dev">Веб розробку</a></li>
+          <li><a href="#hunting">Полювання</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Список покупок:</h2>
+      <ul>
+        <li>Хліб <button disabled>Придбати</button></li>
+        <li>Молоко <button disabled>Придбати</button></li>
+        <li>Ковбаса <button disabled>Придбати</button></li>
+        <li>
+          Сири:
+          <ul>
+            <li>Чеддер <button disabled>Придбати</button></li>
+            <li>Пармезан <button disabled>Придбати</button></li>
+          </ul>
+        </li>
+      </ul>
+      <h2>Найулюбленіші тварини:</h2>
+      <ol>
+        <li>Коти</li>
+        <li>Сови</li>
+        <li>Змії</li>
+      </ol>
+      <img src="./car.jpg" alt="Червоний автомобіль" />
+      <aside>
+        <p>Полюбляю бутерброди</p>
+      </aside>
+      <section>
+        <h2>Мої інтереси</h2>
+        <article id="books">
+          <h3>Книги</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quia
+            voluptatem sit facere? Quam doloremque, corporis tenetur vero sunt
+            nisi eveniet deleniti eligendi recusandae similique officia libero
+            nam nostrum reprehenderit.Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Rem quia voluptatem sit facere? Quam doloremque,
+            corporis tenetur vero sunt nisi eveniet deleniti eligendi recusandae
+            similique officia libero nam nostrum reprehenderit.Lorem ipsum
+            dolor, sit amet consectetur adipisicing elit. Rem quia voluptatem
+            sit facere? Quam doloremque, corporis tenetur vero sunt nisi eveniet
+            deleniti eligendi recusandae similique officia libero nam nostrum
+            reprehenderit.
+          </p>
+        </article>
+        <article id="computers">
+          <h3>Комп'ютери</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quia
+            voluptatem sit facere? Quam doloremque, corporis tenetur vero sunt
+            nisi eveniet deleniti eligendi recusandae similique officia libero
+            nam nostrum reprehenderit.Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Rem quia voluptatem sit facere? Quam doloremque,
+            corporis tenetur vero sunt nisi eveniet deleniti eligendi recusandae
+            similique officia libero nam nostrum reprehenderit.Lorem ipsum
+            dolor, sit amet consectetur adipisicing elit. Rem quia voluptatem
+            sit facere? Quam doloremque, corporis tenetur vero sunt nisi eveniet
+            deleniti eligendi recusandae similique officia libero nam nostrum
+            reprehenderit.
+          </p>
+        </article>
+        <article id="web-dev">
+          <h3>Веб розробку</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quia
+            voluptatem sit facere? Quam doloremque, corporis tenetur vero sunt
+            nisi eveniet deleniti eligendi recusandae similique officia libero
+            nam nostrum reprehenderit.Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Rem quia voluptatem sit facere? Quam doloremque,
+            corporis tenetur vero sunt nisi eveniet deleniti eligendi recusandae
+            similique officia libero nam nostrum reprehenderit.Lorem ipsum
+            dolor, sit amet consectetur adipisicing elit. Rem quia voluptatem
+            sit facere? Quam doloremque, corporis tenetur vero sunt nisi eveniet
+            deleniti eligendi recusandae similique officia libero nam nostrum
+            reprehenderit.
+          </p>
+        </article>
+        <article id="hunting">
+          <h3>Полювання</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quia
+            voluptatem sit facere? Quam doloremque, corporis tenetur vero sunt
+            nisi eveniet deleniti eligendi recusandae similique officia libero
+            nam nostrum reprehenderit.Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Rem quia voluptatem sit facere? Quam doloremque,
+            corporis tenetur vero sunt nisi eveniet deleniti eligendi recusandae
+            similique officia libero nam nostrum reprehenderit.Lorem ipsum
+            dolor, sit amet consectetur adipisicing elit. Rem quia voluptatem
+            sit facere? Quam doloremque, corporis tenetur vero sunt nisi eveniet
+            deleniti eligendi recusandae similique officia libero nam nostrum
+            reprehenderit.
+          </p>
+        </article>
+
+        <a href="#">To top</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>Це футер</p>
+      <p>Всі права захищені. 2023 р.</p>
+    </footer>
   </body>
 </html>
