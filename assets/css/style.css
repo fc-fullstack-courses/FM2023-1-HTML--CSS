@@ -1,0 +1,82 @@
+/* селектор {
+        властивість: значення;
+        властивість2: значення2;
+        властивість3: значення3;
+      } */
+
+/* p {
+        /* color: forestgreen; */
+/* color: rgb(34, 139, 34); */
+/* color: rgba(34, 139, 34, 1 ); */
+
+/*
+          десятична система - 0123456789
+
+          10^1 * 1 + 10^0 * 9 = 19
+          10^2 * 3 + 10^1 * 1 + 10^0 * 5 = 315
+
+          двійкова система - 01
+
+          19 = 16 + 2 + 1
+
+          2^4 * 1 + 2^3 * 0 + 2^2 * 0 + 2^1 * 1 + 2^0 * 1 = 10011
+
+          шістнадцятирічна система -  0123456789abcdef
+
+          19 = 16 + 3
+
+          16^1 * 1 + 16^0 * 3 = 13
+
+        
+        /* color: #228b22; 
+        color: black;
+
+        font-size: 32px;
+        font-weight: bold;
+      } */
+
+/* #main-heading {
+        font-size: 16px;
+        font-weight: normal;
+      } */
+
+/* #main-heading,
+      #main-heading2,
+      #main-heading3 {
+        font-size: 16px;
+        font-weight: normal;
+      } */
+
+/* 
+        id - 100
+      */
+#red-text {
+  color: red;
+}
+/*
+        class - 10
+      */
+.main-heading {
+  font-size: 16px;
+  font-weight: normal;
+  color: green;
+}
+/*
+        tag - 1
+*/
+h1 {
+  color: blue;
+}
+
+h1 {
+  color: yellow;
+}
+
+.article-heading {
+  font-size: 48px;
+}
+
+.article-text {
+  font-size: 24px;
+  color: darkcyan;
+}
