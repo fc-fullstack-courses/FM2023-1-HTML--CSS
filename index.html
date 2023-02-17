@@ -53,37 +53,30 @@
         font-weight: normal;
       } */
 
+      /* 
+        id - 100
+      */
+      #red-text {
+        color: red;
+      }
+      /*
+        class - 10
+      */
       .main-heading {
         font-size: 16px;
         font-weight: normal;
+        color: green;
       }
-
-      .red-text {
-        color: red;
-      }
-
-      /* .img {
-
-      }
-
-      .blog-article {
-
-      }
-
-      .blog-text {
-
-      }
-
-      .footer-text {
-
-      } */
       /*
-        Створити декілька класів стилів для статей з завдання з еметами
-        та добати ці класи html елементам
-        розмір тексту заголовку статті має бути 48 пикселів
-        текст статті  має бути розміром 24 пікселя та має мати НЕ чорний колір
-        (сам колір можете вибрати на свій смак, але текст має добре читатися)
+        tag - 1
       */
+      h1 {
+        color: blue;
+      }
+
+      h1 {
+        color: yellow;
+      }
 
       .article-heading {
         font-size: 48px;
@@ -97,11 +90,13 @@
   </head>
   <body>
     <header>
-      <h1 class="main-heading red-text" title="title attribute">
+      <h1 id="red-text" class="main-heading" title="title attribute">
         Головна сторінка
       </h1>
-      <h1 class="red-text">Lorem ipsum dolor sit amet.</h1>
+      <h1 class="main-heading">Lorem ipsum dolor sit amet.</h1>
       <h1>Lorem ipsum dolor sit amet.</h1>
+      <!-- inline style - 1000 -->
+      <h1 id="red-text" style="color:aqua;">Lorem ipsum dolor sit amet.</h1>
       <nav>
         <h2>Зовнішня навігація</h2>
         <ul>
