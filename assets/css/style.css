@@ -74,9 +74,32 @@ h1 {
 
 .article-heading {
   font-size: 48px;
+  font-weight: bold;
+  /* курсивність тексту normal / italic */
+  font-style: italic;
+  /* шрифти, сімества шрифтів */
+  font-family: Arial, Roboto, sans-serif;
+  /* зміна регістру тексту uppercase, lowercase, capitalize */
+  text-transform: capitalize;
+  /* декоріції тексту */
+  /*
+  text-decoration-line: underline; /* overline , line-through, none
+  text-decoration-color: yellow;
+  text-decoration-style: wavy; /* solid , double, dotted, dashed 
+  */
+  text-decoration: underline yellow wavy;
+
+  /* колір фону */
+  background-color: rgb(215, 100, 50);
 }
 
 .article-text {
   font-size: 24px;
+  /* розмір рядка тексту , відносна одиниця виміру - множится на розмір тексту */
+  line-height: 2;
   color: darkcyan;
+}
+
+.link {
+  text-decoration: none;
 }
