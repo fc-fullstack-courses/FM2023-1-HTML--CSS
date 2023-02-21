@@ -71,6 +71,8 @@
   border-radius: 50%;
 
   object-fit: cover;
+
+  margin-bottom: -500px;
 }
 
 .wide-img {
@@ -80,3 +82,27 @@
 .tall-img {
   object-position: top;
 }
+
+.wrapper {
+  min-height: 100vh;
+  min-width: 100%;
+  padding: 20px;
+  color: white;
+  background-color: purple;
+  background-image: url(./../img/tree.jpg);
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: bottom;
+}
+/* 
+body {
+color: white;
+  background-color: purple;
+  background-image: url(./../img/tree.jpg);
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: bottom; 
+}
+*/
