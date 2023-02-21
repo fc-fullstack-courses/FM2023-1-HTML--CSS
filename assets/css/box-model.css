@@ -60,3 +60,31 @@
   border: 5px solid red;
   padding: 20px;
 }
+
+.outer {
+  /* width: 700px; */
+  /* height: 500px; */
+
+  min-width: 400px;
+  min-height: 500px;
+
+  max-width: 1000px;
+  max-height: 700px;
+
+  width: 100%;
+  /* height: 1000000px; */
+  
+  border: 20px solid green;
+}
+
+
+.inner {
+  display: inline-block;
+  /* width: 50%; */
+  /* height: 50%; */
+  border: 10px solid red;
+  padding: 10%; /* від ширини */
+  margin-top: 10%;
+}
+
+
