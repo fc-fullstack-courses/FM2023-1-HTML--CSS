@@ -1,120 +1,25 @@
-/* селектор {
-        властивість: значення;
-        властивість2: значення2;
-        властивість3: значення3;
-      } */
-
-/* p {
-        /* color: forestgreen; */
-/* color: rgb(34, 139, 34); */
-/* color: rgba(34, 139, 34, 1 ); */
-
-/*
-          десятична система - 0123456789
-
-          10^1 * 1 + 10^0 * 9 = 19
-          10^2 * 3 + 10^1 * 1 + 10^0 * 5 = 315
-
-          двійкова система - 01
-
-          19 = 16 + 2 + 1
-
-          2^4 * 1 + 2^3 * 0 + 2^2 * 0 + 2^1 * 1 + 2^0 * 1 = 10011
-
-          шістнадцятирічна система -  0123456789abcdef
-
-          19 = 16 + 3
-
-          16^1 * 1 + 16^0 * 3 = 13
-
-        
-        /* color: #228b22; 
-        color: black;
-
-        font-size: 32px;
-        font-weight: bold;
-      } */
-
-/* #main-heading {
-        font-size: 16px;
-        font-weight: normal;
-      } */
-
-/* #main-heading,
-      #main-heading2,
-      #main-heading3 {
-        font-size: 16px;
-        font-weight: normal;
-      } */
-
-/* 
-        id - 100
-      */
-#red-text {
-  color: red;
-}
-/*
-        class - 10
-      */
-.main-heading {
-  font-size: 16px;
-  font-weight: normal;
-  color: green;
-}
-/*
-        tag - 1
-*/
-h1 {
-  color: blue;
+* {
+  box-sizing: border-box;
 }
 
-h1 {
-  color: yellow;
+.img {
+  display: block;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: 10px solid red;
+  object-fit: cover;
+  object-position: left;
 }
 
-.article {
-  /* вирівнювання тексту  left | right | center | justify | */
-  text-align: center;
-  color: red;
+.fake-img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: 10px solid red;
 
-  border: 10px solid green;
-}
-
-.article-heading {
-  font-size: 48px;
-  font-weight: bold;
-  /* курсивність тексту normal / italic */
-  font-style: italic;
-  /* шрифти, сімества шрифтів */
-  font-family: Arial, Roboto, sans-serif;
-  /* зміна регістру тексту uppercase, lowercase, capitalize */
-  text-transform: capitalize;
-  /* декоріції тексту */
-  /*
-  text-decoration-line: underline; /* overline , line-through, none
-  text-decoration-color: yellow;
-  text-decoration-style: wavy; /* solid , double, dotted, dashed 
-  */
-  text-decoration: underline yellow wavy;
-
-  /* колір фону */
-  background-color: rgb(215, 100, 50);
-}
-
-.article-text {
-  font-size: 24px;
-  /* розмір рядка тексту , відносна одиниця виміру - множится на розмір тексту */
-  line-height: 2;
-  text-align: justify;
-  color: initial; /* примусова відсутність успадкування */
-  border: inherit; /* примусове успадкування */
-}
-
-.nav-list-item {
-  color: green;
-}
-
-.link {
-  color: inherit;
-  text-decoration: none;
+  background-image: url(./../img/car.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
 }
