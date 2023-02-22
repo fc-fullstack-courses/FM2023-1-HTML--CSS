@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.img {
+/* .img {
   display: block;
   width: 500px;
   height: 500px;
@@ -22,4 +22,27 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+} */
+
+.div {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 10px solid red;
+  text-align: center;
+  font-size: 40px;
+  line-height: 1;
+  padding: 70px 0;
+}
+
+.hidden-1 {
+  display: none;
+}
+
+.hidden-2 {
+  opacity: 0;
+}
+
+.hidden-3 {
+  visibility: hidden;
 }
