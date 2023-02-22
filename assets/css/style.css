@@ -57,7 +57,21 @@
   visibility: hidden;
 } */
 
-.heading {
-  font-size: 48px;
-  font-weight: bold;
+.ol {
+  /*
+    list-style-type
+    list-style-image
+    list-style-position : outside (default) | inside - розміщення маркерів відносно паддінгів
+  */
+  /* list-style: ; */
+  /* list-style-type: 'Item: '; */
+
+  /* list-style: 'Item: ' inside; */
+  list-style: none;
+}
+
+.ul {
+  list-style: url(./../icons/arrow-right-thin.svg) outside;
+  /* list-style-image: url(./../icons/arrow-right-thin.svg); */
+  /* font-size: 60px; */
 }
