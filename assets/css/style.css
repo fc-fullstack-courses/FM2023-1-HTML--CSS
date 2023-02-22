@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 /* .img {
@@ -26,16 +27,25 @@
 
 .div {
   display: inline-block;
-  width: 200px;
-  height: 200px;
+  /*
+    1vh - відсоток висоти від в'юпорта
+    1vw - відсоток довжини від в'юпорта
+
+    1vmin - 1 відсоток від меншої сторони в'юпорта
+    1vmax - 1 відсоток від більшої сторони в'юпорта
+  */
+  width: 100vmin;
+  height: 100vmin;
   border: 10px solid red;
   text-align: center;
   font-size: 40px;
   line-height: 1;
-  padding: 70px 0;
+  /* padding: 70px 0; */
+
+
 }
 
-.hidden-1 {
+/* .hidden-1 {
   display: none;
 }
 
@@ -45,4 +55,4 @@
 
 .hidden-3 {
   visibility: hidden;
-}
+} */
