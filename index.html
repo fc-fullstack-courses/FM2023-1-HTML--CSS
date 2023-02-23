@@ -12,59 +12,59 @@
       <caption>Ваші покупки</caption>
        <thead>
         <tr>
-          <td>Номер замовлення</td>
-          <td>Ціна</td>
-          <td>Статус</td>
-          <td>Дата</td>
+          <th scope="col">Номер замовлення</th>
+          <th scope="col">Ціна</th>
+          <th scope="col">Статус</th>
+          <th scope="col">Дата</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>1</td>
-          <td>2</td>
-          <td>3</td>
-          <td>4</td>
+          <th scope="row">1</th>
+          <td>200</td>
+          <td>Доставлено</td>
+          <td>4 грудня</td>
         </tr>
         <tr>
-          <td>5</td>
-          <td>6</td>
-          <td>7</td>
-          <td>8</td>
+          <th scope="row">2</th>
+          <td>600</td>
+          <td>Відправлено</td>
+          <td>8 грудня</td>
         </tr>
         <tr>
-          <td>5</td>
-          <td>6</td>
-          <td>7</td>
-          <td>8</td>
+          <th scope="row">3</th>
+          <td>300</td>
+          <td>Прийнято</td>
+          <td>12 грудня</td>
         </tr>
         <tr>
-          <td>5</td>
-          <td>6</td>
-          <td>7</td>
-          <td>8</td>
+          <th scope="row">4</th>
+          <td>100</td>
+          <td rowspan="2">Доставлено</td>
+          <td rowspan="3">8 січня</td>
         </tr>
         <tr>
-          <td>5</td>
-          <td>6</td>
-          <td>7</td>
-          <td>8</td>
+          <th scope="row">5</th>
+          <td>2500</td>
         </tr>
         <tr>
-          <td>5</td>
-          <td>6</td>
-          <td>7</td>
-          <td>8</td>
+          <th scope="row">6</th>
+          <td>100</td>
+          <td>Відправлено</td>
         </tr>
       </tbody>
       <tfoot>
         <tr>
-          <td>Усього: </td>
+          <th scope="row">Усього: </th>
           <td>6</td>
-          <td>7</td>
-          <td>8</td>
+          <td colspan="2">Щось</td>
+          <!-- <td colspan="2" rowspan="2">Щось</td> -->
         </tr>
+        <!-- <tr>
+          <th scope="row">Усього: </th>
+          <td>6</td>
+        </tr> -->
       </tfoot>
-
     </table>
   </body>
 </html>
