@@ -1,0 +1,47 @@
+.card {
+  display: inline-block;
+  min-width: 300px;
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.card-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.card-heading {
+
+}
+
+.card-subheading {
+
+}
+
+.card-info {
+
+}
+
+.social-container {
+
+}
+
+.social-icon-container {
+
+}
+
+.social-icon {
+
+}
+
+.social-text {
+
+}
+
+.follow-btn {
+
+}
