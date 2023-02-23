@@ -92,3 +92,29 @@ td {
   vertical-align: middle;
   
 }
+
+/* селектор нащадків (специфічність - 101)*/
+#root-div h2  {
+  color: green;
+}
+/* селектор прямих нащадків */
+#root-div > h2 {
+  color: red;
+}
+
+#root-div > p {
+  font-size: 60px;
+}
+
+#root-div > div > p {
+  background-color: aquamarine;
+}
+/* селектор сусідів*/
+h2 ~ div {
+  padding: 20px;
+}
+
+/* селектор наступного сусіда */
+h2 + div {
+  border: 5px solid black;
+}
