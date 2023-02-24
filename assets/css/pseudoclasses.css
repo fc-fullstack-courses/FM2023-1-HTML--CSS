@@ -46,6 +46,24 @@
   border: 2px solid red;
 }
 
+.list > li:first-child {
+  color: red;
+}
+
+.list > li:last-child {
+  color: yellow;
+}
+
+.list > li:nth-child(3) {
+  color: green;
+}
+
+
+.list > li:nth-child(odd) {
+  color: violet;
+}
+
+
 
 .link:active {
   font-style: italic;
