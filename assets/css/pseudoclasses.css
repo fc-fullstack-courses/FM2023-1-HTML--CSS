@@ -1,13 +1,14 @@
+/* псведоклас кореневого елементу */
+:root {
+  color: red;
+}
+
 .nav {
   background-color: green;
   padding: 20px 40px;
   /* color: white; */
 }
 
-/* псведоклас кореневого елементу */
-:root {
-  color: red;
-}
 
 .nav-list-item {
   display: inline-block;
@@ -20,24 +21,26 @@
 .link {
   display: inline-block;
   background-color: dodgerblue;
+  color: inherit;
   padding: 12px 10px;
+  border: none;
   border-radius: 10px;
 }
 
-.link:link {
+/* .link:link {
   color: yellowgreen;
 }
 
 .link:visited {
   color: red;
-}
+} */
 
-.link:hover {
+.link:hover:not(button) {
   background-color: blue;
   /* padding: 50px; */
 }
 
-.link:focus,
+.link:focus:not(button),
 .card:focus {
   outline: none;
   border: 2px solid red;
