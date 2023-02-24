@@ -4,9 +4,23 @@
 
 body {
   background-color: darkblue;
+  color: white;
+}
+/* для всіх елементів з атрибутом title*/
+[title] {
+  color: red;
 }
 
-.card {
+[href="https://google.com"] {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+p[title~="secret"] {
+  border: 10px solid yellow;
+}
+
+article.card {
   display: block;
   min-width: 300px;
   max-width: 500px;
