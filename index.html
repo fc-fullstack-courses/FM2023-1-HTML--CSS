@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <!-- <link rel="stylesheet" href="./assets/css/style.css" /> -->
     <link rel="stylesheet" href="./assets/css/user-card.css" />
+    <link rel="stylesheet" href="./assets/css/pseudoclasses.css" />
   </head>
   <body>
     <!-- <table>
@@ -68,7 +69,17 @@
     </table> -->
     <!-- div>h2{h2}+((div>p>lorem10)*3)+ul>(li>span>lorem4)*4 -->
 
-    <article class="card">
+    <!-- nav.nav>ul.nav-list>(li.nav-list-item>a.link[href=#]{Link $})*3 -->
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-list-item"><a href="#" class="link" tabindex="1">Link 1</a></li>
+        <li class="nav-list-item"><a href="https://somesite.com" class="link" tabindex="4">Link 2</a></li>
+        <li class="nav-list-item"><a href="#" class="link" tabindex="3">Link 3</a></li>
+      </ul>
+    </nav>
+
+
+    <article class="card" tabindex="2">
       <img src="assets/img/tall.jpeg" alt="User picture" class="card-img" />
       <h2 class="card-heading">User Userenko</h2>
       <h3 class="card-subheading">Architect</h3>
@@ -118,22 +129,5 @@
       <button class="follow-btn">Follow</button>
     </article>
 
-    <p title="hi">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio harum
-      ipsum quia totam quae, adipisci ex accusantium, dicta doloremque repellat
-      ut animi praesentium rerum fugit! Quas voluptas enim et eligendi.
-    </p>
-    <p>
-      Nisi, harum. Iusto at rerum animi eius totam dignissimos repellat?
-      Deserunt ratione voluptates qui vel voluptatem distinctio sunt ullam
-      recusandae doloremque numquam quae temporibus, libero obcaecati nulla
-      necessitatibus facere illo.
-    </p>
-    <span title="other title">span</span>
-    <p title="some secret is very important">test</p>
-
-    <p title="some secret, is very important">test 2</p>
-    <a href="https://youtube.com">youtube</a>
-    <a href="https://google.com">google</a>
   </body>
 </html>
